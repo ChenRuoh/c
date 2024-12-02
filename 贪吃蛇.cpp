@@ -1,7 +1,30 @@
  #define _CRT_SECURE_NO_WARNINGS 
 
-#include "snake.h"//引入自定义头文件 
-
+#include "snake.h"//引入自定义头文件
+ 
+ void initWall(void)
+ {
+ 	for(size_t i = 0; i <= HIGH; i++)  //一列中的多行 
+ 	{
+ 		for (size_t j = 0; j <= WIDE; j++) //一行中的多列 
+ 		{
+ 			if (j == HIGH)
+ 			{
+ 				printf("|");
+			 }
+			 else if(i == HIGH)
+			 {
+			 	printf("_");
+			 }
+			 else
+			 {
+			 	printf(" ");
+			 }
+		 }
+		 printf("\n");
+	 }
+  } 
+ 
  void playGame(void)
  {
  	char key = 'd';
@@ -10,6 +33,7 @@
  	while(snake.body[0].X >= 0 && snake.body[0].X < WIDE
 	   && snake.body[0].Y >= 0 && snake.body[0].Y < HIGH)
  	{
+ 		initWall();
  		//更新蛇
 		 initUI ();
  		//接受用户按键输入
@@ -75,7 +99,7 @@
 	return;
  }
  
- void init
+
 
  int main(void){ 
     srand(time(NULL));//播种随机数种子 
@@ -83,6 +107,7 @@
 	initSnake();//初始化蛇
 	initFood();//初始化食物
 	 
+	//initWall();//画墙体 
 	initUI();  //画蛇和食物 
 	 
 	playGame();  //启动游戏 

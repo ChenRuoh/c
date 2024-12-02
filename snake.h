@@ -30,9 +30,13 @@
  } food;    //一个食物对象
  
   int score = 0;
+  
+  int kx = 0;   //用户按下asdw任意一个按键所得到的一个坐标值 
+  int ky = 0;
  
  //声明函数
  void initSnake(void);
  void initFood(void); 
+ void initUI(void); 
 
 #endif

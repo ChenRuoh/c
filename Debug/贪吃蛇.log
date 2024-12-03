@@ -1,0 +1,9 @@
+﻿  源.cpp
+D:\c和c++游戏源码\贪吃蛇\贪吃蛇\源.cpp(39,7): warning C4996: 'kbhit': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _kbhit. See online help for details.
+D:\c和c++游戏源码\贪吃蛇\贪吃蛇\源.cpp(107,11): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _getch. See online help for details.
+D:\c和c++游戏源码\贪吃蛇\贪吃蛇\源.cpp(216,10): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _getch. See online help for details.
+D:\c和c++游戏源码\贪吃蛇\贪吃蛇\源.cpp(239,3): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _getch. See online help for details.
+D:\c和c++游戏源码\贪吃蛇\贪吃蛇\源.cpp(274,14): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+D:\c和c++游戏源码\贪吃蛇\贪吃蛇\源.cpp(286,15): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+D:\c和c++游戏源码\贪吃蛇\贪吃蛇\源.cpp(319,14): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  贪吃蛇.vcxproj -> D:\c和c++游戏源码\贪吃蛇\x64\Debug\贪吃蛇.exe
